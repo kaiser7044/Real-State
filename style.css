@@ -1,0 +1,187 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix {
+	clear: both;
+}
+
+#container {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+
+	header {
+		background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Flag_of_Afghanistan_(1880%E2%80%931901).svg/2000px-Flag_of_Afghanistan_(1880%E2%80%931901).svg.png");
+		width: 100%;
+		height: 100%;
+		color: white; 
+		font-family: arial; 
+
+	}
+
+	#leftHeader a  {
+		padding: 50px 0px;
+		margin-left: 3%;
+		float: left;
+		cursor: default;
+		color:white;
+		text-decoration: none;
+	}
+
+	#leftHeader a:hover {
+		color:orange;
+	}
+
+
+	nav {
+		float: right;
+	}
+
+	nav ul {}
+	nav ul li {
+		float: left;
+		padding: 57px 30px;
+		font-size: 20px;
+		font-weight: bold;
+		margin: 0 2px;
+		list-style-type: none;
+		transition: background 1s;
+		cursor: pointer;
+	}
+
+	nav ul a {
+		color: white;
+	}
+
+	nav ul li:hover{
+		background: orange;
+	}
+
+	main {
+		font-family: arial;
+	}
+	.mainImg {
+		width: 100%;
+		height: 100%;
+	}
+
+	.section1 {}
+	.section1 h2 {
+		text-align: center;
+		font-size: 60px;
+		text-shadow: 1px 1px 5px black;
+		padding: 50px;
+		color: silver;
+	}
+
+	article {
+		width: 20%; 
+		margin: 20px 1% 20px 0;
+		float: left;
+		color: #666;
+	}
+
+	.marginLeft {
+		margin-left: 9%;
+	}
+
+	.marginRight {
+		margin-right: 0;
+	}
+
+	article img {
+		width: 100%;
+	}
+
+	article img:hover {
+		animation: anim1 2s;
+	}
+
+	.imgBlock {
+		height: 200px;
+		overflow: hidden;
+	}
+
+	@keyframes anim1 {
+		from {width: 100%;}
+		to {width:150%;}
+	}
+
+	.articleTitle {
+		text-align: center;
+		font-size: 30px;
+		margin: 20px;
+		font-weight: bold;
+	}
+
+	.articleDescription {
+		text-align: center;
+	}
+
+	.section2 {
+		background: url("http://blogs-images.forbes.com/vanessagrout/files/2015/03/shutterstock_130356110.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 700px;
+		box-sizing: border-box;
+
+	}
+
+	.section2 h2 {
+		text-align: center; 
+		color: white;
+		font-size: 60px;
+		padding: 50px 50px;
+		text-decoration: none;
+		transition: text-decoration 1s;
+	}
+
+	.section2 h2:hover {
+		text-decoration: underline;
+	}
+
+	.section2 .leftSide{
+		width: 40%;
+		float: left;
+	}
+
+	.section2 .leftSide img {
+		width: 100%;
+		height: 100%;
+		border: 5px solid white;
+		border-radius: 20px;
+		margin-left: 5%;
+	}
+	.section2 .rightSide{
+		width: 40%;
+		float: right ;
+		color: white;
+		background: black;
+		padding: 20px;
+		border: 5px solid white;
+		line-height: 25px;
+		border-radius: 20px;
+		margin-right: 2%;
+	}
+
+ 	footer{
+ 		width: 100%;
+ 		height: 100%;
+ 		background-color: black;
+ 		color: white;
+ 		text-align: center;
+ 		padding: 20px;
+ 		transition: color 2s;
+ 		font-family: arial;
+
+
+ 	}
+
+ 	footer:hover {
+ 		color: orange;
+ 		cursor: pointer;
+ 	}
